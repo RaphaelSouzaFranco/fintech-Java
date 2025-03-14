@@ -2,7 +2,7 @@ package com.fiap.projetofintech.model;
 import java.time.LocalDate;
 
 public class Cartao {
-    String bandeira;
+    private String bandeira;
     private double numero;
     private  String nome;
     private LocalDate dataVencimento;
