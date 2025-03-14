@@ -11,6 +11,30 @@ public class Recebimento {
         this.origem = origem;
     }
 
+    public double getValor() {
+        return valor;
+    }
+
+    public void setValor(double valor) {
+        this.valor = valor;
+    }
+
+    public String getData() {
+        return data;
+    }
+
+    public void setData(String data) {
+        this.data = data;
+    }
+
+    public String getOrigem() {
+        return origem;
+    }
+
+    public void setOrigem(String origem) {
+        this.origem = origem;
+    }
+
     public void exibirDados() {
         System.out.println("Valor: R$" + valor);
         System.out.println("Data: " + data);
