@@ -4,8 +4,8 @@ import java.time.LocalDate;
 public class Cartao {
     String bandeira;
     private double numero;
-    String nome;
-    LocalDate dataVencimento;
+    private  String nome;
+    private LocalDate dataVencimento;
     private int cvc;
 
 
