@@ -2,12 +2,12 @@ package com.fiap.projetofintech.model;
 import java.time.LocalDateTime;
 
 public class Investimento {
-    String tipo;
-    String descricao;
-    LocalDateTime data; //Data com horário.
-    double valorInvestido;
-    String vencimento;
-    double rendimento;
+    private String tipo;
+    private String descricao;
+    private LocalDateTime data;
+    private double valorInvestido;
+    private String vencimento;
+    private double rendimento;
 
     public Investimento(String tipo, String descricao, LocalDateTime data, double valorInvestido, String vencimento, double rendimento){
         this.tipo = tipo;
