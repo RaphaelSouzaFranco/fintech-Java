@@ -1,7 +1,7 @@
 package com.fiap.projetofintech.model;
 
 public class MetaCliente {
-    private String definirMeta;
+    private String nomeMeta;
     private double valorMeta;
     private int prazoMeses;
 
