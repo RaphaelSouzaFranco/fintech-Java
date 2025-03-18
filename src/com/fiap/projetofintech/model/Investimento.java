@@ -78,4 +78,3 @@ public class Investimento {
         System.out.println("Rendimento: " + rendimento + "% ao ano");
     }
 }
-
