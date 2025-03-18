@@ -1,4 +1,6 @@
-import com.fiap.projetofintech.model.Usuario;
+import com.fiap.projetofintech.model.*;
+
+import java.time.LocalDateTime;
 import java.util.Scanner;
 
 public class Main {
