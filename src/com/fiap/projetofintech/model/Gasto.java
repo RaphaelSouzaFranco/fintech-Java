@@ -41,20 +41,7 @@ public class Gasto { private String descricaoDespesa;
         this.valor = valor;
     }
 
-    public String getCategoria() {
-        return categoria;
-    }
-
-    public void setCategoria(String categoria) {
-        this.categoria = categoria;
-    }
-
-    public String getFormaPagamento() {
-        return formaPagamento;
-    }
-
-    public void setFormaPagamento(String formaPagamento) {
-        this.formaPagamento = formaPagamento;
+    public Gasto() {
     }
 
     public boolean isStatus() {
