@@ -15,8 +15,8 @@ public class MetaCliente {
         return nomeMeta;
     }
 
-    public void setDefinirMeta(String definirMeta) {
-        this.definirMeta = definirMeta;
+    public void setNomeMeta(String nomeMeta) {
+        this.nomeMeta = nomeMeta;
     }
 
     public double getValorMeta() {
