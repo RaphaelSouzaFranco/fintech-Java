@@ -30,13 +30,23 @@ public class Main {
 
         System.out.println("Bem-vindo ao sistema de gerenciamento de despesas!");
 
-        usuario.exibirDados();
-        System.out.print("\nConfirme sua senha: ");
-        String senhaConfirmacao = scanner.nextLine();
-        if (usuario.validarSenha(senhaConfirmacao)) {
-            System.out.println("Senha correta! Acesso autorizado.");
-        } else {
-            System.out.println("Senha incorreta! Acesso negado.");
+        // Solicitar informações da despesa
+        System.out.println("Digite a descrição da despesa: ");
+        String descricaoDespesa = scanner.nextLine();
+
+        System.out.println("Informe o valor da despesa: ");
+        double valorDespesa = scanner.nextDouble();
+        scanner.nextLine();
+
+        String categoria;
+        while (true) {
+            System.out.println("Digite a categoria da despesa (ALIMENTACAO, TRANSPORTE, LAZER, EDUCACAO, INVESTIMENTO, etc.): ");
+            categoria = scanner.nextLine().toUpperCase();
+            if (categoria.equals("ALIMENTACAO") || categoria.equals("TRANSPORTE") || categoria.equals("LAZER") || categoria.equals("EDUCACAO") || categoria.equals("INVESTIMENTO")) {
+                break;
+            } else {
+                System.out.println("Categoria inválida. Tente novamente.");
+            }
         }
 
         scanner.close();
