@@ -22,7 +22,6 @@ public class Main {
         System.out.print("Digite sua senha: ");
         String senha = scanner.nextLine();
 
-
         Usuario usuario = new Usuario(nome, email, senha);
 
         System.out.println("\nUsuário cadastrado com sucesso!\n");
