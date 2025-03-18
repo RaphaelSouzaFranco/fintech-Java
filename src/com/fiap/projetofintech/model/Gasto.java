@@ -34,6 +34,7 @@ public class Gasto { private String descricaoDespesa;
         System.out.println("Descrição: " + descricaoDespesa);
         System.out.println("Valor: " + valor);
     }
+}
 
     // metodp para marcar a despesa como paga
     public void pagarDespesa() {
