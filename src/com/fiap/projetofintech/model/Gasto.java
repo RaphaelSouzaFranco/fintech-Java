@@ -6,10 +6,11 @@ public class Gasto { private String descricaoDespesa;
     private String formaPagamento;
     private boolean status;
 
-
-    public Gasto(String data, String descricao, double valor, String categoria, String formaPagamento, boolean pago) {
-        this.data = data;
-        this.descricao = descricao;
+    public Gasto(String descricaoDespesa, double valor) {
+        if (descricaoDespesa == null || descricaoDespesa.isEmpty()) {
+            descricaoDespesa = "Descrição não fornecida";
+        }
+        this.descricaoDespesa = descricaoDespesa;
         this.valor = valor;
         this.categoria = categoria;
         this.formaPagamento = formaPagamento;
