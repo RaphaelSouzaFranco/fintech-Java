@@ -20,53 +20,6 @@ public class Investimento {
         this.rendimento = rendimento;
     }
 
-    public String getTipo() {
-        return tipo;
-    }
-
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
-    }
-
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
-
-    public LocalDateTime getData() {
-        return data;
-    }
-
-    public void setData(LocalDateTime data) {
-        this.data = data;
-    }
-
-    public double getValorInvestido() {
-        return valorInvestido;
-    }
-
-    public void setValorInvestido(double valorInvestido) {
-        this.valorInvestido = valorInvestido;
-    }
-
-    public String getVencimento() {
-        return vencimento;
-    }
-
-    public void setVencimento(String vencimento) {
-        this.vencimento = vencimento;
-    }
-
-    public double getRendimento() {
-        return rendimento;
-    }
-
-    public void setRendimento(double rendimento) {
-        this.rendimento = rendimento;
-    }
 
     public void exibirInformacao() {
         System.out.println("\n--- Detalhes do Investimento ---");
