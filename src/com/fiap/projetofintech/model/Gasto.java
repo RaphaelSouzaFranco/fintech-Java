@@ -36,13 +36,3 @@ public class Gasto { private String descricaoDespesa;
     }
 }
 
-    // metodp para marcar a despesa como paga
-    public void pagarDespesa() {
-        if (!status) {
-            status = true;
-            System.out.println("Despesa marcada como paga.");
-        } else {
-            System.out.println("Despesa já estava paga.");
-        }
-    }
-}
