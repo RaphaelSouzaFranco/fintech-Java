@@ -10,7 +10,8 @@ public class Investimento {
     String vencimento;
     double rendimento;
 
-    public Investimento(String tipo, String descricao, LocalDateTime data, double valorInvestido, String vencimento, double rendimento){
+    // Construtor da classe
+    public Investimento(String tipo, String descricao, LocalDateTime data, double valorInvestido, String vencimento, double rendimento) {
         this.tipo = tipo;
         this.descricao = descricao;
         this.data = data;
