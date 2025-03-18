@@ -5,8 +5,8 @@ public class MetaCliente {
     private double valorMeta;
     private int prazoMeses;
 
-    public MetaCliente(String definirMeta, double valorMeta, int prazoMeses) {
-        this.definirMeta = definirMeta;
+    public MetaCliente(String nomeMeta, double valorMeta, int prazoMeses) {
+        this.nomeMeta = nomeMeta;
         this.valorMeta = valorMeta;
         this.prazoMeses = prazoMeses;
     }
