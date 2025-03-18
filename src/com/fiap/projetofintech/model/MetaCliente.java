@@ -35,8 +35,10 @@ public class MetaCliente {
         this.prazoMeses = prazoMeses;
     }
 
-    public void exibirMeta(){
-        System.out.println("Meta: " + definirMeta + ", Valor Total: " + valorMeta + ",Prazo Meses: " + prazoMeses);
+    public void exibirMeta() {
+        System.out.println("Meta: " + nomeMeta +
+                "\nValor necessário: R$" + valorMeta +
+                "\nPrazo: " + prazoMeses + " meses");
     }
 
 }
