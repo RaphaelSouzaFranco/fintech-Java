@@ -68,14 +68,14 @@ public class Investimento {
         this.rendimento = rendimento;
     }
 
-    public void exibirInformacao(){
-        System.out.println("Tipo:" + tipo);
-        System.out.println("Descrição:" + descricao);
-        System.out.println("Data:" + data);
-        System.out.println("Valor:" + valorInvestido);
-        System.out.println("Vencimento:" + vencimento);
-        System.out.println("Rendimento:" + rendimento);
-
+    public void exibirInformacao() {
+        System.out.println("\n--- Detalhes do Investimento ---");
+        System.out.println("Tipo: " + tipo);
+        System.out.println("Descrição: " + descricao);
+        System.out.println("Data: " + data);
+        System.out.println("Valor Investido: R$" + valorInvestido);
+        System.out.println("Vencimento: " + vencimento);
+        System.out.println("Rendimento: " + rendimento + "% ao ano");
     }
 }
 
