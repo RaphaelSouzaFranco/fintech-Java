@@ -33,9 +33,6 @@ public class Gasto { private String descricaoDespesa;
     public void exibirGasto() {
         System.out.println("Descrição: " + descricaoDespesa);
         System.out.println("Valor: " + valor);
-        System.out.println("Categoria: " + categoria);
-        System.out.println("Forma de Pagamento: " + formaPagamento);
-        System.out.println("Status: " + (status ? "Pago" : "Pendente"));
     }
 
     // metodp para marcar a despesa como paga
