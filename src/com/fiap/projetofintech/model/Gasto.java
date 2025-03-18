@@ -2,9 +2,6 @@ package com.fiap.projetofintech.model;
 
 public class Gasto { private String descricaoDespesa;
     private double valor;
-    private String categoria;
-    private String formaPagamento;
-    private boolean status;
 
     public Gasto(String descricaoDespesa, double valor) {
         if (descricaoDespesa == null || descricaoDespesa.isEmpty()) {
