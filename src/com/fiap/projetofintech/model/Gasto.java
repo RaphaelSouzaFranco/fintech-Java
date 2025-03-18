@@ -30,7 +30,7 @@ public class Gasto { private String descricaoDespesa;
     }
 
     public void setDescricao(String descricao) {
-        this.descricao = descricao;
+        this.descricaoDespesa = descricao;
     }
 
     public double getValor() {
