@@ -21,9 +21,6 @@ public class Cartao {
         return cvc;
     }
 
-    public void setCvc(int cvc) {
-        this.cvc = cvc;
-    }
 
     public LocalDate getDataVencimento() {
         return dataVencimento;
