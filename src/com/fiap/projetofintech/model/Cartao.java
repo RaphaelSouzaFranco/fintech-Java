@@ -39,10 +39,6 @@ public class Cartao {
         return numero;
     }
 
-    public void setNumero(double numero) {
-        this.numero = numero;
-    }
-
     public String getBandeira() {
         return bandeira;
     }
