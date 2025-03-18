@@ -1,8 +1,6 @@
 package com.fiap.projetofintech.model;
 
-public class Gasto {
-    private String data;
-    private String descricao;
+public class Gasto { private String descricaoDespesa;
     private double valor;
     private String categoria;
     private String formaPagamento;
