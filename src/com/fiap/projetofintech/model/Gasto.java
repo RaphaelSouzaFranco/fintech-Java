@@ -9,17 +9,6 @@ public class Gasto { private String descricaoDespesa;
         }
         this.descricaoDespesa = descricaoDespesa;
         this.valor = valor;
-        this.categoria = categoria;
-        this.formaPagamento = formaPagamento;
-        this.status = pago;
-    }
-
-    public String getData() {
-        return data;
-    }
-
-    public void setData(String data) {
-        this.data = data;
     }
 
     public String getDescricao() {
