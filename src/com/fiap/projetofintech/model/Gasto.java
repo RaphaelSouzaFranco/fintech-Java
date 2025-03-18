@@ -26,7 +26,7 @@ public class Gasto { private String descricaoDespesa;
     }
 
     public String getDescricao() {
-        return descricao;
+        return descricaoDespesa;
     }
 
     public void setDescricao(String descricao) {
