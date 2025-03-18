@@ -26,6 +26,9 @@ public class Main {
 
         System.out.println("\nUsuário cadastrado com sucesso!\n");
 
+        System.out.println("------------------");
+
+        System.out.println("Bem-vindo ao sistema de gerenciamento de despesas!");
 
         usuario.exibirDados();
         System.out.print("\nConfirme sua senha: ");
