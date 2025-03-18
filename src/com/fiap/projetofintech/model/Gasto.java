@@ -44,17 +44,8 @@ public class Gasto { private String descricaoDespesa;
     public Gasto() {
     }
 
-    public boolean isStatus() {
-        return status;
-    }
-
-    public void setStatus(boolean status) {
-        this.status = status;
-    }
-
-    public void exibirGastos() {
-        System.out.println("Data do Pagamento: " + data);
-        System.out.println("Descrição: " + descricao);
+    public void exibirGasto() {
+        System.out.println("Descrição: " + descricaoDespesa);
         System.out.println("Valor: " + valor);
         System.out.println("Categoria: " + categoria);
         System.out.println("Forma de Pagamento: " + formaPagamento);
