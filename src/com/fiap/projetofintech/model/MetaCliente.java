@@ -11,8 +11,8 @@ public class MetaCliente {
         this.prazoMeses = prazoMeses;
     }
 
-    public String getDefinirMeta() {
-        return definirMeta;
+    public String getNomeMeta () {
+        return nomeMeta;
     }
 
     public void setDefinirMeta(String definirMeta) {
