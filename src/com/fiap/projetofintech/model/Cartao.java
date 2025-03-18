@@ -34,9 +34,6 @@ public class Cartao {
         return nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
 
     public double getNumero() {
         return numero;
