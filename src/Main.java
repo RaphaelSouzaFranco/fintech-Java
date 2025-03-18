@@ -25,7 +25,6 @@ public class Main {
 
         Usuario usuario = new Usuario(nome, email, senha);
 
-
         System.out.println("\nUsuário cadastrado com sucesso!\n");
 
 
